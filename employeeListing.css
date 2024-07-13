@@ -1,0 +1,242 @@
+.employees-list-container
+{
+    border: 1px solid #7777;
+    width:62.3rem;
+   display: flex;
+   flex-direction: column;
+    border-radius: 5px;
+    
+}
+
+.heading-container2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.search-container
+{
+    padding: 1rem;
+}
+.search-container i{
+    color: white;
+}
+.add-filter-container
+{
+  margin-left: 15rem;
+  padding: 1rem;
+  
+}
+
+.add
+{
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #7152F3;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.add:hover{
+    background-color: #7252f34f;
+}
+
+
+.filter
+{
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #7777;
+    background-color: #171a1a85;
+    color: white;
+
+}
+
+/* HEADING-CONTAINER2 HEADING-CONTAINER2HEADING-CONTAINER2 HEADING-CONTAINER2 */
+
+
+@media (max-width: 1010px) {
+
+
+    .heading-container2 input[type="search"],.search-container i
+    {
+        display: none;
+    }
+    .add-filter-container
+    {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: absolute;
+       left: -50%;
+
+       
+    }
+    .add
+    {
+        font-size: xx-small;
+        font-weight: 100;
+        width: max-content;
+        margin: 1rem;
+    }
+    .filter
+    {
+        margin: 0.5rem;
+        width: max-content;
+        font-size: xx-small;
+        font-weight: 100;
+
+    }
+
+
+    
+}
+
+/* EMPLOYESS LISTING EMPLOYESS LISTING EMPLOYESS LISTINGEMPLOYESS LISTINGEMPLOYESS LISTING */
+
+
+.list-container
+{
+    display: flex;
+    flex-direction: column;
+  
+
+  
+}
+.headings
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+}
+.headingsEmployee
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ 
+    
+}
+
+
+.EmployeeNameImg img{
+    object-fit: cover;
+    object-position: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+    
+   
+}
+
+.EmployeeNameImg
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.list
+{
+    font-size: small;
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.EmployeeName
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.Action
+{
+
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-right: 1rem;
+}
+
+.Action a
+{
+    margin-top: 1rem;
+}
+  
+  
+.eye i,.pen i,.delete i
+{
+    color: white;
+
+}
+
+ .list
+{
+    width: 4rem;
+ 
+}
+
+.Status
+
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    border-radius:6px ;
+    color: #6643f3;
+    background-color:#7252f333;
+}
+
+.Action a:hover i
+{
+    color: #7152F3;
+}
+
+
+
+
+@media (max-width:1010px) {
+    
+.Heading
+{
+    font-size: xx-small;
+    font-weight: 100;
+    margin: 0.3rem;
+    
+
+}    
+
+    .list
+    {
+        font-size: xx-small;
+        font-weight: 100;
+        margin: 0.3rem;
+
+    }
+    .headingsEmployee
+    {
+        width: max-content;
+       
+    }
+
+
+
+}
+
+
+
+

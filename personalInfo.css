@@ -1,0 +1,265 @@
+#sidebarMenu {
+    position: sticky;
+    top: 0; /* Position the navbar at the top of the viewport */
+    left: 0; /* Position the navbar on the left side of the viewport */
+    width: 15rem; /* Set the width of the navbar */
+    height: max-content; /* Adjust height as needed */
+    /* Adjust background color */
+    padding: 1rem; /* Add some padding inside the navbar */
+    z-index: 10; /* Set a higher z-index to ensure it stays on top */
+    transition: all 0.3s ease-in-out; /* Smooth transition for stickiness */
+  }
+
+
+  
+
+
+.main-container-form{
+    border: 1px solid;
+    border-color:#7777;
+    position: absolute;
+    height: max-content;
+    top: 20%;
+    left: 19%;
+    color: white;
+    width: 72.5%;
+    border-radius: 7px;
+}
+
+ul 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li a:is(:link, :active, :visited).active {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    color: #7152F3;
+    border-radius: 3px;
+
+
+}
+
+li a:hover {
+    background-color: transparent;
+   color:#492fb3;
+    border-radius: 3px;
+}
+
+.form a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.profile-container
+{
+    border: 1px solid ;
+}
+
+
+.profile-pic
+{
+    border: 1px solid #7777;
+    color: transparent;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    border-radius:5px ;
+    background-color: rgba(0, 0, 0, 0.164)
+    ;
+    backdrop-filter: blur(2px);
+}
+.profile-pic i{
+    color: white;
+    
+}
+hr
+{
+    border-color:#7777;
+    
+}
+
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.form-name{
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+    /* margin-left: 5rem; */
+    /* margin-right: 28rem; */
+    margin-top: 1rem;
+  
+    width: 100%;
+} 
+input[type="text"],input[type="number"],input[type="mail"],input[type="date"]
+{
+     
+     background-color:rgba(0, 0, 0, 0.24);
+     backdrop-filter: blur(3px) !important;
+    width:20rem;
+    height: 2.5rem;
+   border: 1px solid #7777;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+input[type="date"]
+{
+    color: #777777ec;
+    padding-left:1.5rem ;
+}
+.Address input[type="text"]
+{
+    width: 83%;
+}
+.CityStateZipCode  
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#CountryCity,#CountryState,#zipcode
+{
+    width: 25.5%;
+    margin: 1rem;
+}
+
+.form-buttons
+{
+ 
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+
+.cancel,.next
+{
+    width: 5rem;
+    margin: 1rem;
+    height: 2.5rem;
+    border-radius: 7px;
+   
+    
+}
+
+.cancel
+{
+    background-color: transparent;
+   
+    border: 1px solid #7152F3;;
+    color: white;
+}
+
+
+.next
+{
+    background-color: #7152F3;
+    border: 1px solid #7152F3;
+    color: white;
+}
+
+
+
+
+@media (max-width:1000px) {
+
+
+    .main-container-form
+    {
+        margin-top: 5rem;
+        margin-right: 10rem;
+        position: absolute;
+        left: 15%;
+       
+        
+    }
+
+    .nav-form-container ul li a
+    {
+        font-size: xx-small;
+        padding: 0.5rem;
+    }
+
+    .profile-pic
+    {
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+
+    .form-name 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        height: max-content;
+    }
+
+    input[type="text"],input[type="number"],input[type="mail"],input[type="date"]
+    {
+        width: 14rem;
+        margin: 1rem;
+    }
+
+    #CountryCity,#CountryState,#zipcode
+    {
+       
+        display: flex;
+        justify-content: space-around;
+        width: max-content;
+        flex-wrap: wrap;
+    }
+
+    .Address input[type="text"]
+    {
+        width: 14rem;
+    }
+
+    .form-buttons
+    {
+       
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (max-width: 770px)
+    {
+        .heading-container
+        {
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+           
+        }
+        
+        .information-container
+        {
+            display: flex;
+            width: 45vh;
+            justify-content: center;
+            align-items: center;
+           
+        }
+            
+    
+       
+    }
+    
+}

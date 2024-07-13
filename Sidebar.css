@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html
+{
+   scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2C3333;
+}
+
+#sidebarMenu {
+    position: sticky;
+    top: 0; /* Position the navbar at the top of the viewport */
+    left: 0; /* Position the navbar on the left side of the viewport */
+    width: 15rem; /* Set the width of the navbar */
+    height: max-content; /* Adjust height as needed */
+    /* Adjust background color */
+    padding: 1rem; /* Add some padding inside the navbar */
+    z-index: 10; /* Set a higher z-index to ensure it stays on top */
+    transition: all 0.3s ease-in-out; /* Smooth transition for stickiness */
+  }
+.collapse
+{
+    border: 5px white;
+}
+
+.company-name a {
+
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+}
+
+.company-name a {
+    font-size: x-large;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0rem;
+    color: white;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+li a {
+    margin: 0.1rem;
+}
+
+li a {
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+}
+
+i {
+    margin-right: 0.2rem;
+}
+
+
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-toggler {
+    background-color: rgba(117, 55, 168, 0.781);
+    backdrop-filter: blur(2px);
+    margin: 1rem;
+    z-index: 3;
+}
+
+.theme-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: white;
+    width: max-content;
+    border-radius: 7px;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.light, .dark {
+    width: max-content;
+    border: none;
+    outline: none;
+    margin: 0.1;
+    height: 2.3rem;
+
+
+
+
+}
+
+.light {
+    border-radius: 5px 0px 0px 5px;
+    padding: 0.5rem;
+
+}
+
+.dark {
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.5rem;
+    background-color: #7152F3;
+    color: white;
+
+}
+.dark i{
+    color: white;
+}
+
+
+li a:is(:link, :active, :visited).active {
+    background-color: #7252f369;
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 3px;
+
+
+}
+
+li a:hover {
+    background-color: #7152F3;
+    color: white;
+    border-radius: 3px;
+}
+
+.sidebar {
+    display: flex;
+    
+}
+
+hr
+{
+    border-color:#7777;
+}
+

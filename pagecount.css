@@ -1,0 +1,62 @@
+.PageCount-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.selectPage
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.show
+{
+    padding: 1rem;
+    color: #a7a7a7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+select
+{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+.showing-numbers
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: #a7a7a7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ .page-item a
+  {
+    border: none;
+    margin: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .pagination .page-link 
+{
+    background-color: #a7a7a7;
+}
+
+.link4 a{
+    width: max-content;
+    
+}
